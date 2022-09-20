@@ -1,0 +1,4 @@
+"slam-lang/stdlib" req
+"src" src
+"gblib.slm" lib
+"slam-gb" bin
