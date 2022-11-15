@@ -47,7 +47,7 @@ echo &"Tiles: {outputData.tiles.len}"
 echo &"Empty Tiles: {blank}"
 
 var output = newFileStream(paramStr(2), fmWrite)
-Map.put(output, outputData)
+map.putat(output, outputData)
 output.close()
 echo &"Base Size: {getFileSize(paramStr(2))}"
 
